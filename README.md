@@ -1,5 +1,5 @@
 # trabalho_final_aed1
-
+# doc pessoal do grupo 
 # Tabela com o que vai ser feito no trabalho de forma geral
 
 | Algoritmo      | Estrutura de Dados    | Tipo de Dado | Casos de Teste                                                                                                                    |
