@@ -27,3 +27,7 @@
 | Heap Sort      | Vetor             | Textual      | xx ms                     | xx trocas         | O(n log n)                          |
 | Heap Sort      | Lista (conversão) | Textual      | xx ms                     | xx trocas         | O(n log n), com sobrecarga extra    |
 
+
+
+### Para cada algoritmo e tipo de implementação, deve ser gerado um gráfico evidenciando o comportamento dos dados e soluções
+- vai ser preciso fazer então varios testes e fazer um plot do grafico com media desvio padrão  ?
