@@ -2,6 +2,7 @@
 # doc pessoal do grupo 
 # Tabela com o que vai ser feito no trabalho de forma geral
 base da estrutura do projeto , pode seguir essa ideia ? 
+```
 ── dados_de_entrada
 │   ├── numericos
 │   │   ├── dados_aleatorio_100000000.txt
@@ -39,7 +40,7 @@ base da estrutura do projeto , pode seguir essa ideia ?
 │       ├── heap_sort_numerico.out
 │       └── main.c
 └── README.md
-
+``
 
 
 | Algoritmo      | Estrutura de Dados    | Tipo de Dado | Casos de Teste                                                                                                                    |
