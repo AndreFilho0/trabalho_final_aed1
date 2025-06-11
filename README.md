@@ -40,7 +40,7 @@ base da estrutura do projeto , pode seguir essa ideia ?
 │       ├── heap_sort_numerico.out
 │       └── main.c
 └── README.md
-``
+```
 
 
 | Algoritmo      | Estrutura de Dados    | Tipo de Dado | Casos de Teste                                                                                                                    |
