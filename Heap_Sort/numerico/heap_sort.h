@@ -3,27 +3,12 @@
 
 #include <stddef.h> 
 
-typedef struct {
-    int *array;
-    size_t tamanho_atual; 
-    size_t capacidade;    
-} Heap;
 
 
-Heap* heap_criar(size_t capacidade);
-
-void heap_destruir(Heap *h);
-
-void heap_inserir(Heap *h, int valor);
-
-int heap_extrair_max(Heap *h);
-
-void construir_max_heap(int arr[], int n);
-
-void max_heapify(int arr[], int n, int i);
-
-void heap_sort(int arr[], int n);
+void heap_sort_crescente(int arr[], int n , unsigned long long int *contador_trocas);
 
 void imprimir_array(int arr[], int n);
+
+void heap_sort_decrescente(int arr[], int n , unsigned long long int *contador_trocas);
 
 #endif 
