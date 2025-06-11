@@ -48,11 +48,11 @@ base da estrutura do projeto , pode seguir essa ideia ?
 | Selection Sort | Vetor                 | Numérico     | 1. Ordenado crescente → ordenar crescente<br>2. Aleatório → ordenar crescente<br>3. Ordenado crescente → ordenar decrescente      |
 | Selection Sort | Lista duplamente enc. | Numérico     | 1. Ordenado crescente → ordenar crescente<br>2. Aleatório → ordenar crescente<br>3. Ordenado crescente → ordenar decrescente      |
 | Heap Sort      | Vetor                 | Numérico     | 1. Ordenado crescente → ordenar crescente<br>2. Aleatório → ordenar crescente<br>3. Ordenado crescente → ordenar decrescente      |
-| Heap Sort      | Lista (via conversão) | Numérico     | 1. Ordenado crescente → ordenar crescente<br>2. Aleatório → ordenar crescente<br>3. Ordenado crescente → ordenar decrescente      |
+| Heap Sort      | Lista duplamente enc.                | Numérico     | 1. Ordenado crescente → ordenar crescente<br>2. Aleatório → ordenar crescente<br>3. Ordenado crescente → ordenar decrescente      |
 | Selection Sort | Vetor                 | Textual      | 1. Estado original → ordenar crescente<br>2. Estado original → ordenar decrescente<br>3. Ordenado crescente → ordenar decrescente |
 | Selection Sort | Lista duplamente enc. | Textual      | 1. Estado original → ordenar crescente<br>2. Estado original → ordenar decrescente<br>3. Ordenado crescente → ordenar decrescente |
 | Heap Sort      | Vetor                 | Textual      | 1. Estado original → ordenar crescente<br>2. Estado original → ordenar decrescente<br>3. Ordenado crescente → ordenar decrescente |
-| Heap Sort      | Lista (via conversão) | Textual      | 1. Estado original → ordenar crescente<br>2. Estado original → ordenar decrescente<br>3. Ordenado crescente → ordenar decrescente |
+| Heap Sort      | Lista Lista duplamente enc. | Textual      | 1. Estado original → ordenar crescente<br>2. Estado original → ordenar decrescente<br>3. Ordenado crescente → ordenar decrescente |
 
 
 
@@ -62,11 +62,11 @@ base da estrutura do projeto , pode seguir essa ideia ?
 | Selection Sort | Vetor             | Numérico     | xx ms                     | xx trocas         | O(n²)                               |
 | Selection Sort | Lista Duplamente  | Numérico     | xx ms                     | xx trocas         | O(n²), acesso sequencial            |
 | Heap Sort      | Vetor             | Numérico     | xx ms                     | xx trocas         | O(n log n)                          |
-| Heap Sort      | Lista (conversão) | Numérico     | xx ms                     | xx trocas         | O(n log n), mas conversão pesa      |
+| Heap Sort      | Lista Lista duplamente enc. | Numérico     | xx ms                     | xx trocas         | O(n² log n)                         |
 | Selection Sort | Vetor             | Textual      | xx ms                     | xx trocas         | O(n²)                               |
 | Selection Sort | Lista Duplamente  | Textual      | xx ms                     | xx trocas         | O(n²), com impacto do acesso linear |
 | Heap Sort      | Vetor             | Textual      | xx ms                     | xx trocas         | O(n log n)                          |
-| Heap Sort      | Lista (conversão) | Textual      | xx ms                     | xx trocas         | O(n log n), com sobrecarga extra    |
+| Heap Sort      | Lista Lista duplamente enc. | Textual      | xx ms                     | xx trocas         | O(n log n), com sobrecarga extra    |
 
 
 
