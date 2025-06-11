@@ -1,6 +1,46 @@
 # trabalho_final_aed1
 # doc pessoal do grupo 
 # Tabela com o que vai ser feito no trabalho de forma geral
+base da estrutura do projeto , pode seguir essa ideia ? 
+── dados_de_entrada
+│   ├── numericos
+│   │   ├── dados_aleatorio_100000000.txt
+│   │   ├── dados_aleatorio_10000000.txt
+│   │   ├── dados_aleatorio_1000000.txt
+│   │   ├── dados_aleatorio_100000.txt
+│   │   ├── dados_aleatorio_10000.txt
+│   │   ├── dados_aleatorio_1000.txt
+│   │   ├── dados_aleatorio_100.txt
+│   │   ├── dados_aleatorio_10.txt
+│   │   ├── dados_crescente_100000000.txt
+│   │   ├── dados_crescente_10000000.txt
+│   │   ├── dados_crescente_1000000.txt
+│   │   ├── dados_crescente_100000.txt
+│   │   ├── dados_crescente_10000.txt
+│   │   ├── dados_crescente_1000.txt
+│   │   ├── dados_crescente_100.txt
+│   │   ├── dados_crescente_10.txt
+│   │   ├── dados_decrescente_100000000.txt
+│   │   ├── dados_decrescente_10000000.txt
+│   │   ├── dados_decrescente_1000000.txt
+│   │   ├── dados_decrescente_100000.txt
+│   │   ├── dados_decrescente_10000.txt
+│   │   ├── dados_decrescente_1000.txt
+│   │   ├── dados_decrescente_100.txt
+│   │   ├── dados_decrescente_10.txt
+│   │   └── gerar_numeros.c
+│   └── textuais
+│       ├── nomes_aleatorios.txt
+│       └── textos_aleatorios.c
+├── Heap_Sort
+│   └── numerico
+│       ├── heap_sort.c
+│       ├── heap_sort.h
+│       ├── heap_sort_numerico.out
+│       └── main.c
+└── README.md
+
+
 
 | Algoritmo      | Estrutura de Dados    | Tipo de Dado | Casos de Teste                                                                                                                    |
 | -------------- | --------------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
