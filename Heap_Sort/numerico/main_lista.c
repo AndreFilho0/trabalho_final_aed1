@@ -83,14 +83,14 @@ int main() {
 
     // ----------------------------------------------------------------------- //   
 
-    testar_heap_sort_lista("Lista - Caso 1: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_10.txt", 1);
-    testar_heap_sort_lista("Lista - Caso 2: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_100.txt", 1);
-    testar_heap_sort_lista("Lista - Caso 3: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_1000.txt", 1);
-    testar_heap_sort_lista("Lista - Caso 4: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_10000.txt", 1);
-    testar_heap_sort_lista("Lista - Caso 5: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_100000.txt", 1);
-    testar_heap_sort_lista("Lista - Caso 6: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_1000000.txt", 1);
-    testar_heap_sort_lista("Lista - Caso 7: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_10000000.txt", 1);
-    testar_heap_sort_lista("Lista - Caso 8: Crescente → Decrescente", "../../dados_de_entrada/numericos/dados_crescente_100000000.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 1: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_10.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 2: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_100.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 3: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_1000.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 4: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_10000.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 5: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_100000.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 6: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_1000000.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 7: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_10000000.txt", 1);
+    testar_heap_sort_lista("Lista - Caso 8: Crescente → Decrescente", "dados_de_entrada/numericos/dados_crescente_100000000.txt", 1);
 
     return 0;
 }
