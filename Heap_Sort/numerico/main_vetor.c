@@ -71,42 +71,42 @@ int main() {
     
     testar_heap_sort(
         "Caso 1 : Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_10.txt",
+        "dados_de_entrada/numericos/dados_crescente_10.txt",
         0
     );
   testar_heap_sort(
         "Caso 2: Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_100.txt",
+        "dados_de_entrada/numericos/dados_crescente_100.txt",
         0
     );
   testar_heap_sort(
         "Caso 3: Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_1000.txt",
+        "dados_de_entrada/numericos/dados_crescente_1000.txt",
         0
     );
   testar_heap_sort(
         "Caso 4: Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_10000.txt",
+        "dados_de_entrada/numericos/dados_crescente_10000.txt",
         0
     );
   testar_heap_sort(
         "Caso 5: Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_100000.txt",
+        "dados_de_entrada/numericos/dados_crescente_100000.txt",
         0
     );
   testar_heap_sort(
         "Caso 6: Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_1000000.txt",
+        "dados_de_entrada/numericos/dados_crescente_1000000.txt",
         0
     );
   testar_heap_sort(
         "Caso 7: Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_10000000.txt",
+        "dados_de_entrada/numericos/dados_crescente_10000000.txt",
         0
     );
   testar_heap_sort(
         "Caso 8: Ordenado Crescente → Crescente",
-        "../../dados_de_entrada/numericos/dados_crescente_100000000.txt",
+        "dados_de_entrada/numericos/dados_crescente_100000000.txt",
         0
     );
 
@@ -115,42 +115,42 @@ int main() {
 
    testar_heap_sort(
         "Caso 1 : Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_10.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_10.txt",
         0
     );
   testar_heap_sort(
         "Caso 2: Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_100.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_100.txt",
         0
     );
   testar_heap_sort(
         "Caso 3: Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_1000.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_1000.txt",
         0
     );
   testar_heap_sort(
         "Caso 4: Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_10000.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_10000.txt",
         0
     );
   testar_heap_sort(
         "Caso 5: Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_100000.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_100000.txt",
         0
     );
   testar_heap_sort(
         "Caso 6: Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_1000000.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_1000000.txt",
         0
     );
   testar_heap_sort(
         "Caso 7: Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_10000000.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_10000000.txt",
         0
     );
   testar_heap_sort(
         "Caso 8: Ordenado Aleatório → Crescente",
-        "../../dados_de_entrada/numericos/dados_aleatorio_100000000.txt",
+        "dados_de_entrada/numericos/dados_aleatorio_100000000.txt",
         0
     );
    
@@ -160,42 +160,42 @@ int main() {
   
    testar_heap_sort(
         "Caso 1 : Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_10.txt",
+        "dados_de_entrada/numericos/dados_crescente_10.txt",
         1
     );
   testar_heap_sort(
         "Caso 2: Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_100.txt",
+        "dados_de_entrada/numericos/dados_crescente_100.txt",
         1
     );
   testar_heap_sort(
         "Caso 3: Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_1000.txt",
+        "dados_de_entrada/numericos/dados_crescente_1000.txt",
         1
     );
   testar_heap_sort(
         "Caso 4: Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_10000.txt",
+        "dados_de_entrada/numericos/dados_crescente_10000.txt",
         1
     );
   testar_heap_sort(
         "Caso 5: Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_100000.txt",
+        "dados_de_entrada/numericos/dados_crescente_100000.txt",
         1
     );
   testar_heap_sort(
         "Caso 6: Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_1000000.txt",
+        "dados_de_entrada/numericos/dados_crescente_1000000.txt",
         1
     );
   testar_heap_sort(
         "Caso 7: Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_10000000.txt",
+        "dados_de_entrada/numericos/dados_crescente_10000000.txt",
         1
     );
   testar_heap_sort(
         "Caso 8: Ordenado Crescente → Decrescente",
-        "../../dados_de_entrada/numericos/dados_crescente_100000000.txt",
+        "dados_de_entrada/numericos/dados_crescente_100000000.txt",
         1
     );
 
