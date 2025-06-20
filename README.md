@@ -1,8 +1,8 @@
-# Testando o Projeto de AED1 - Heap Sort
-
+#  Projeto de AED1 - Heap Sort e selection sort
+#  Projeto feito pelos alunos : André de oliveira machado filho e João Victor Borges Tavares
 ## 1. Gerando Arquivos de Teste
 
-### Dados Numéricos
+### Dados Numéricos e Textuais Aleatórios
 ```bash
 cd dados_de_entrada/numericos
 gcc gerar_numeros.c -o dados_entrada_numerico.out
