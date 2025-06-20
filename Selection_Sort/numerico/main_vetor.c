@@ -3,12 +3,13 @@
 #include <time.h>
 #include "selection_sort.h"
 
-#define MAX_NUMEROS 100000000 
+#define MAX_NUMEROS 100000000
 
 int ler_dados(const char *caminho, int *dados) {
     FILE *arquivo = fopen(caminho, "r");
     if (arquivo == NULL) {
         perror("Erro ao abrir o arquivo");
+        fprintf(stderr, "Caminho verificado: %s\n", caminho);
         return -1;
     }
     int count = 0;
@@ -67,11 +68,21 @@ int main() {
     printf("INICIANDO TESTES - SELECTION SORT - VETOR\n");
     printf("========================================================\n");
 
-    testar_selection_sort_vetor("Crescente -> Crescente", "dados_de_entrada/numericos/dados_crescente_10000.txt", 0);
-    
-    testar_selection_sort_vetor("Aleatorio -> Crescente", "dados_de_entrada/numericos/dados_aleatorio_10000.txt", 0);
+    int tamanhos[] = {10, 100, 1000, 10000, 100000,1000000,10000000,100000000};
+    int num_tamanhos = sizeof(tamanhos) / sizeof(tamanhos[0]);
 
-    testar_selection_sort_vetor("Crescente -> Decrescente", "dados_de_entrada/numericos/dados_crescente_10000.txt", 1);
+    for (int i = 0; i < num_tamanhos; i++) {
+        int n = tamanhos[i];
+        char caminho_crescente[256];
+        char caminho_aleatorio[256];
+        
+        snprintf(caminho_crescente, sizeof(caminho_crescente), "../../dados_de_entrada/numericos/dados_crescente_%d.txt", n);
+        snprintf(caminho_aleatorio, sizeof(caminho_aleatorio), "../../dados_de_entrada/numericos/dados_aleatorio_%d.txt", n);
+
+        testar_selection_sort_vetor("Crescente -> Crescente", caminho_crescente, 0);
+        testar_selection_sort_vetor("Aleatorio -> Crescente", caminho_aleatorio, 0);
+        testar_selection_sort_vetor("Crescente -> Decrescente", caminho_crescente, 1);
+    }
     
     printf("\n========================================================\n");
     printf("FIM DOS TESTES - SELECTION SORT - VETOR\n");
