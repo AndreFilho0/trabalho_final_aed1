@@ -3,7 +3,7 @@
 #include <time.h>
 #include "selection_sort.h"
 
-#define MAX_NUMEROS 100000  
+#define MAX_NUMEROS 100000000
 
 int ler_dados(const char *caminho, int *dados) {
     FILE *arquivo = fopen(caminho, "r");
@@ -68,7 +68,7 @@ int main() {
     printf("INICIANDO TESTES - SELECTION SORT - VETOR\n");
     printf("========================================================\n");
 
-    int tamanhos[] = {10, 100, 1000, 10000, 100000};
+    int tamanhos[] = {10, 100, 1000, 10000, 100000,1000000,10000000,100000000};
     int num_tamanhos = sizeof(tamanhos) / sizeof(tamanhos[0]);
 
     for (int i = 0; i < num_tamanhos; i++) {
