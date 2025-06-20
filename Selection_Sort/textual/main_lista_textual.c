@@ -66,7 +66,7 @@ void testar_selection_sort_lista_textual(const char *descricao, const char *cami
 
 
 int main() {
-    const char *caminho_nomes = "dados_de_entrada/textuais/nomes_aleatorios.txt";
+    const char *caminho_nomes = "../../dados_de_entrada/textuais/nomes_aleatorios.txt";
     
     printf("========================================================\n");
     printf("INICIANDO TESTES - SELECTION SORT - LISTA TEXTUAL\n");
