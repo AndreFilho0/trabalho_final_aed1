@@ -25,5 +25,15 @@ gcc Heap_Sort/textual/main_vetor.c Heap_Sort/textual/heap_sort.c -o heap_sort_te
 ./heap_sort_textual.out
 ```
 
+# --- COMPILAR E EXECUTAR SELECTION SORT NUMÉRICO ---
+
+(cd Selection_Sort/numerico && gcc main_vetor.c selection_sort.c -o main_vetor.out -Wall && ./main_vetor.out)
+(cd Selection_Sort/numerico && gcc main_lista.c selection_sort.c -o main_lista.out -Wall && ./main_lista.out)
+
+# --- COMPILAR E EXECUTAR SELECTION SORT TEXTUAL ---
+
+(cd Selection_Sort/textual && gcc main_vetor_textual.c selection_sort_textual.c -o main_vetor_textual.out -Wall && ./main_vetor_textual.out)
+(cd Selection_Sort/textual && gcc main_lista_textual.c selection_sort_textual.c -o main_lista_textual.out -Wall && ./main_lista_textual.out)
+
 ### Observação: Gere os arquivos de entrada antes de executar os programas de ordenação.
 
